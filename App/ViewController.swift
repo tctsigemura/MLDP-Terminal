@@ -1012,7 +1012,7 @@ class ViewController: UIViewController, CBCentralManagerDelegate, CBPeripheralDe
             print("不明")
         case .unsupported:
             // Indicator表示開始
-            appDelegate.indicator.show(controller: self)
+            // appDelegate.indicator.show(controller: self)
             print("非対応")
         }
     }
